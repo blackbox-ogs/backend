@@ -1,7 +1,7 @@
 const args = ['start'];
 const opts = {
   stdio: 'inherit',
-  cwd: 'blackbox-ui',
+  cwd: 'frontend',
   shell: true
 };
 require('child_process').spawn('npm', args, opts);
