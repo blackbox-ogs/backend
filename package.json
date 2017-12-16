@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "PORT=3001 node ./bin/www",
+    "server": "node ./bin/www",
     "client": "node ./start-client.js"
   },
   "dependencies": {
